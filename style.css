@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: #F5EFE6;
+  font-family: 'Open Sans', sans-serif;
+  color: #3C2317;
+  font-size: 0.9em;
+  line-height: 0.9em;
+}
+
+h1, h2, h3 {
+  color: #628E90;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
+  line-height: 0.8em;
+}
+
+a {
+  color: #B4CDE6;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #628E90;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.card {
+  background-color: white;
+  text-align: center;
+  border: 1px solid lightgrey;
+  margin: 20px;
+  padding-top: 10px;
+  box-shadow: 2px 1px 1px black;
+  }
+
+.button {
+  background-color: #B4CDE6;
+  color: white;
+  margin-bottom: 30px;
+  text-decoration: none;
+  padding: 4px;
+  }
+
+.button:hover {
+  background-color: #628E90;
+  color: white;
+  box-shadow: 2px 1px 1px black;
+  text-decoration: none;
+  }
+
+#img_gauthier {
+  width: 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.button-small-size {
+  width: 10px;
+}
+
+i {
+  font-size: larger;
+}
